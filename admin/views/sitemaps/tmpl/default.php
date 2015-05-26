@@ -116,11 +116,13 @@ JFactory::getDocument()->addStyleDeclaration('#toolbar-power-cord{float:right;}@
                         </th>
                         <th width="10%" class="nowrap center hidden-phone">
                             <?php echo JText::_('COM_XMAP_HEADING_HTML_STATS'); ?><br/>
-                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>)
+                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>
+                            )
                         </th>
                         <th width="10%" class="nowrap center hidden-phone">
                             <?php echo JText::_('COM_XMAP_HEADING_XML_STATS'); ?><br/>
-                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>)
+                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>
+                            )
                         </th>
                         <th width="1%" class="nowrap center hidden-phone">
                             <?php echo JHtml::_('grid.sort', 'JGRID_HEADING_ID', 'a.id', $listDirn, $listOrder); ?>
@@ -168,14 +170,14 @@ JFactory::getDocument()->addStyleDeclaration('#toolbar-power-cord{float:right;}@
                                 <?php if ($item->published): ?>
                                     <div class="pull-right">
                                         <?php if ($params->get('show_link_html', 1)): ?>
-                                        <a href="<?php echo '../index.php?option=com_xmap&amp;view=html&amp;id=' . $item->id; ?>"
-                                           target="_blank" class="btn-micro btn-success hasTooltip"
-                                           title="<?php echo JText::_('COM_XMAP_HTML_LINK_TOOLTIP', true); ?>"><?php echo JText::_('COM_XMAP_HTML_LINK'); ?></a>
+                                            <a href="<?php echo '../index.php?option=com_xmap&amp;view=html&amp;id=' . $item->id; ?>"
+                                               target="_blank" class="btn-micro btn-success hasTooltip"
+                                               title="<?php echo JText::_('COM_XMAP_HTML_LINK_TOOLTIP', true); ?>"><?php echo JText::_('COM_XMAP_HTML_LINK'); ?></a>
                                         <?php endif; ?>
                                         <?php if ($params->get('show_link_xml', 1)): ?>
-                                        <a href="<?php echo '../index.php?option=com_xmap&amp;view=xml&amp;id=' . $item->id; ?>"
-                                           target="_blank" class="btn-micro btn-primary hasTooltip"
-                                           title="<?php echo JText::_('COM_XMAP_XML_LINK_TOOLTIP', true); ?>"><?php echo JText::_('COM_XMAP_XML_LINK'); ?></a>
+                                            <a href="<?php echo '../index.php?option=com_xmap&amp;view=xml&amp;id=' . $item->id; ?>"
+                                               target="_blank" class="btn-micro btn-primary hasTooltip"
+                                               title="<?php echo JText::_('COM_XMAP_XML_LINK_TOOLTIP', true); ?>"><?php echo JText::_('COM_XMAP_XML_LINK'); ?></a>
                                         <?php endif; ?>
                                         <?php if ($params->get('show_link_news', 1)): ?>
                                             <a href="<?php echo '../index.php?option=com_xmap&amp;view=xml&amp;news=1&amp;id=' . $item->id; ?>"
@@ -223,6 +225,15 @@ JFactory::getDocument()->addStyleDeclaration('#toolbar-power-cord{float:right;}@
             <?php endif; ?>
 
             <?php echo $this->pagination->getListFooter(); ?>
+
+            <div class="pagination pagination-toolbar">
+                <div class="pull-left">
+                    <?php echo JText::_('COM_XMAP_JED'); ?>
+                </div>
+                <div class="pull-right">
+                    <?php echo JText::_('COM_XMAP_TRANSLATED_BY'); ?>
+                </div>
+            </div>
 
             <input type="hidden" name="task" value=""/>
             <input type="hidden" name="boxchecked" value="0"/>

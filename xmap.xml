@@ -44,6 +44,7 @@
         <language tag="es-ES">es-ES/es-ES.com_xmap.ini</language>
         <language tag="fa-IR">fa-IR/fa-IR.com_xmap.ini</language>
         <language tag="fr-FR">fr-FR/fr-FR.com_xmap.ini</language>
+        <language tag="it-IT">it-IT/it-IT.com_xmap.ini</language>
         <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
         <language tag="nl-NL">nl-NL/nl-NL.com_xmap.ini</language>
         <language tag="ru-RU">ru-RU/ru-RU.com_xmap.ini</language>
@@ -73,6 +74,8 @@
             <language tag="fa-IR">fa-IR/fa-IR.com_xmap.sys.ini</language>
             <language tag="fr-FR">fr-FR/fr-FR.com_xmap.ini</language>
             <language tag="fr-FR">fr-FR/fr-FR.com_xmap.sys.ini</language>
+            <language tag="it-IT">it-IT/it-IT.com_xmap.ini</language>
+            <language tag="it-IT">it-IT/it-IT.com_xmap.sys.ini</language>
             <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
             <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.sys.ini</language>
             <language tag="nl-NL">nl-NL/nl-NL.com_xmap.ini</language>
