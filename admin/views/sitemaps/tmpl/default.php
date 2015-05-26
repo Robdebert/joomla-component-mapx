@@ -116,13 +116,11 @@ JFactory::getDocument()->addStyleDeclaration('#toolbar-power-cord{float:right;}@
                         </th>
                         <th width="10%" class="nowrap center hidden-phone">
                             <?php echo JText::_('COM_XMAP_HEADING_HTML_STATS'); ?><br/>
-                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>
-                            )
+                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>)
                         </th>
                         <th width="10%" class="nowrap center hidden-phone">
                             <?php echo JText::_('COM_XMAP_HEADING_XML_STATS'); ?><br/>
-                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>
-                            )
+                            (<?php echo JText::_('COM_XMAP_HEADING_NUM_LINKS') . ' / ' . JText::_('COM_XMAP_HEADING_NUM_HITS') . ' / ' . JText::_('COM_XMAP_HEADING_LAST_VISIT'); ?>)
                         </th>
                         <th width="1%" class="nowrap center hidden-phone">
                             <?php echo JHtml::_('grid.sort', 'JGRID_HEADING_ID', 'a.id', $listDirn, $listOrder); ?>
