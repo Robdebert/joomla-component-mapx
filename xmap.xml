@@ -39,15 +39,16 @@
         <filename>xmap.php</filename>
     </files>
     <languages folder="site/language">
-        <language tag="en-GB">en-GB/en-GB.com_xmap.ini</language>
+        <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
         <language tag="de-DE">en-GB/en-GB.com_xmap.ini</language>
+        <language tag="en-GB">en-GB/en-GB.com_xmap.ini</language>
         <language tag="es-ES">es-ES/es-ES.com_xmap.ini</language>
         <language tag="fa-IR">fa-IR/fa-IR.com_xmap.ini</language>
         <language tag="fr-FR">fr-FR/fr-FR.com_xmap.ini</language>
         <language tag="it-IT">it-IT/it-IT.com_xmap.ini</language>
-        <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
         <language tag="nl-NL">nl-NL/nl-NL.com_xmap.ini</language>
         <language tag="ru-RU">ru-RU/ru-RU.com_xmap.ini</language>
+        <language tag="uk-UA">uk-UA/uk-UA.com_xmap.ini</language>
     </languages>
     <administration>
         <menu>COM_XMAP_TITLE</menu>
@@ -64,10 +65,12 @@
             <filename>xmap.php</filename>
         </files>
         <languages folder="admin/language">
-            <language tag="en-GB">en-GB/en-GB.com_xmap.ini</language>
-            <language tag="en-GB">en-GB/en-GB.com_xmap.sys.ini</language>
+            <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
+            <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.sys.ini</language>
             <language tag="de-DE">de-DE/de-DE.com_xmap.ini</language>
             <language tag="de-DE">de-DE/de-DE.com_xmap.sys.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_xmap.ini</language>
+            <language tag="en-GB">en-GB/en-GB.com_xmap.sys.ini</language>
             <language tag="es-ES">es-ES/es-ES.com_xmap.ini</language>
             <language tag="es-ES">es-ES/es-ES.com_xmap.sys.ini</language>
             <language tag="fa-IR">fa-IR/fa-IR.com_xmap.ini</language>
@@ -76,12 +79,12 @@
             <language tag="fr-FR">fr-FR/fr-FR.com_xmap.sys.ini</language>
             <language tag="it-IT">it-IT/it-IT.com_xmap.ini</language>
             <language tag="it-IT">it-IT/it-IT.com_xmap.sys.ini</language>
-            <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.ini</language>
-            <language tag="cs-CZ">cs-CZ/cs-CZ.com_xmap.sys.ini</language>
             <language tag="nl-NL">nl-NL/nl-NL.com_xmap.ini</language>
             <language tag="nl-NL">nl-NL/nl-NL.com_xmap.sys.ini</language>
             <language tag="ru-RU">ru-RU/ru-RU.com_xmap.ini</language>
             <language tag="ru-RU">ru-RU/ru-RU.com_xmap.sys.ini</language>
+            <language tag="ru-RU">uk-UA/uk-UA.com_xmap.ini</language>
+            <language tag="ru-RU">uk-UA/uk-UA.com_xmap.sys.ini</language>
         </languages>
     </administration>
 </extension>

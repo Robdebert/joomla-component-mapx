@@ -13,22 +13,24 @@
         <filename plugin="com_content">com_content.php</filename>
     </files>
     <languages folder="language">
-        <language tag="en-GB">en-GB/en-GB.plg_xmap_com_content.ini</language>
-        <language tag="en-GB">en-GB/en-GB.plg_xmap_com_content.sys.ini</language>
+        <language tag="cs-CZ">cs-CZ/cs-CZ.plg_xmap_com_content.ini</language>
+        <language tag="cs-CZ">cs-CZ/cs-CZ.plg_xmap_com_content.sys.ini</language>
         <language tag="de-DE">de-DE/de-DE.plg_xmap_com_content.ini</language>
         <language tag="de-DE">de-DE/de-DE.plg_xmap_com_content.sys.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_xmap_com_content.ini</language>
+        <language tag="en-GB">en-GB/en-GB.plg_xmap_com_content.sys.ini</language>
         <language tag="es-ES">es-ES/es-ES.plg_xmap_com_content.ini</language>
         <language tag="es-ES">es-ES/es-ES.plg_xmap_com_content.sys.ini</language>
         <language tag="fa-IR">fa-IR/fa-IR.plg_xmap_com_content.ini</language>
         <language tag="fa-IR">fa-IR/fa-IR.plg_xmap_com_content.sys.ini</language>
         <language tag="fr-FR">fr-FR/fr-FR.plg_xmap_com_content.ini</language>
         <language tag="fr-FR">fr-FR/fr-FR.plg_xmap_com_content.sys.ini</language>
-        <language tag="cs-CZ">cs-CZ/cs-CZ.plg_xmap_com_content.ini</language>
-        <language tag="cs-CZ">cs-CZ/cs-CZ.plg_xmap_com_content.sys.ini</language>
         <language tag="nl-NL">nl-NL/nl-NL.plg_xmap_com_content.ini</language>
         <language tag="nl-NL">nl-NL/nl-NL.plg_xmap_com_content.sys.ini</language>
         <language tag="ru-RU">ru-RU/ru-RU.plg_xmap_com_content.ini</language>
         <language tag="ru-RU">ru-RU/ru-RU.plg_xmap_com_content.sys.ini</language>
+        <language tag="uk-UA">uk-UA/uk-UA.plg_xmap_com_content.ini</language>
+        <language tag="uk-UA">uk-UA/uk-UA.plg_xmap_com_content.sys.ini</language>
     </languages>
     <config>
         <fields name="params">
