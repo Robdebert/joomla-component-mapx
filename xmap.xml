@@ -83,8 +83,8 @@
             <language tag="nl-NL">nl-NL/nl-NL.com_xmap.sys.ini</language>
             <language tag="ru-RU">ru-RU/ru-RU.com_xmap.ini</language>
             <language tag="ru-RU">ru-RU/ru-RU.com_xmap.sys.ini</language>
-            <language tag="ru-RU">uk-UA/uk-UA.com_xmap.ini</language>
-            <language tag="ru-RU">uk-UA/uk-UA.com_xmap.sys.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.com_xmap.ini</language>
+            <language tag="uk-UA">uk-UA/uk-UA.com_xmap.sys.ini</language>
         </languages>
     </administration>
 </extension>
