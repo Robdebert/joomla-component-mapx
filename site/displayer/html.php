@@ -148,7 +148,7 @@ class XmapDisplayerHtml extends XmapDisplayerAbstract
             $link = $node->link;
         }
 
-        $attributes = array('title' => addslashes($node->name));
+        $attributes = array('title' => htmlspecialchars($node->name));
 
         switch ($node->browserNav)
         {
